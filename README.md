@@ -10,7 +10,7 @@ The case of a simple European call option enables us to introduce the following 
 Each method is explained in detail in [Theory.pdf](Theory.pdf).
 The plots are done in python in [plot.ipynb](plot.ipynb).
 
-## Structure of the code
+## Structure of the C++ code
 - [matrix.cpp](matrix.cpp): implements a Matrix class performing basic operations and computing its inverse using LU decomposition.
 - [pde_pricer.cpp](pde_pricer.cpp): implements a pricer solving in a backward way the P.D.E.
 - [simulations.cpp](simulations.cpp): implements a Monte Carlo pricer as well as a Quasi-Monte carlo pricing class.
